@@ -1,3 +1,98 @@
+
+[v0.0.3](https://github.com/littleflute/a21-2/edit/master/README.md)
+
+[show this page](https://littleflute.github.io/a21-2/)
+
+[https://littleflute.github.io/a21](https://littleflute.github.io/a21)
+
+[cd01](https://littleflute.github.io/a21/docs/cds/cd01)
+
+[cd02](https://littleflute.github.io/a21/docs/cds/cd02)
+
+[cd03](https://littleflute.github.io/a21/docs/cds/cd03)
+
+[cd04](https://littleflute.github.io/a21/docs/cds/cd04)
+
+[cd05](https://littleflute.github.io/a21/docs/cds/cd05)
+
+[cd06](https://littleflute.github.io/a21/docs/cds/cd06)
+
+[cd07](cd07/Portrait07)
+
+[cd08](cd08)
+
+[cd09](cd09/Portrait09)
+
+[cd10](cd10)
+
+
+[Foxy lady [sound recording] tribute to Jimi Hendrix Lonnie Smith Trio](Foxy lady [sound recording] tribute to Jimi Hendrix Lonnie Smith Trio)
+
+[Power of soul-a tribute to Jimi Hendrix](Power of soul-a tribute to Jimi Hendrix)
+
+[Rainbow bridge](Rainbow bridge/)
+
+[Smash hits](Smash hits)
+
+
+<audio controls id="player"> 
+  <source src="https://littleflute.github.io/a21/docs/cds/cd01/01_曲目 1.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<div id="xd"> 
+</div>
+<script>
+var d = document.getElementById("xd"); 
+var html = d.innerHTML; 
+
+html += fNewBtn(1);
+html += fNewBtn(2);
+html += fNewBtn(3);
+html += fNewBtn(4);
+html += fNewBtn(5);
+html += fNewBtn(6);
+html += fNewBtn(7);
+ 
+d.innerHTML = html;
+
+var p = document.getElementById("player");
+function f(i)
+{
+    var s = "https://littleflute.github.io/a21/docs/cds/cd01/0";
+    s += i;
+    s += " 0";
+    s += i;
+    s += ".mp3";
+    
+	p.src = s; 
+    p.play();
+}
+function fNewBtn(i)
+{
+	var rHTML = "";
+    rHTML = "<button onclick='f(";
+    rHTML += i;
+    rHTML += ");'>";
+    rHTML += i;
+    rHTML += "</button>";
+    return rHTML;
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/littleflute/a21-2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
